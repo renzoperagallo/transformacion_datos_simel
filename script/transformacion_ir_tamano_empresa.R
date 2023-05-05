@@ -97,5 +97,6 @@ ir_nominal <-
 write_delim(ir_nominal, 
             file = "./output/ir_marzo_2023_tamano_empresa_transformado.csv",
             delim = ",",
-            quote = "needed")
+            quote = "needed",
+            na = "")
 

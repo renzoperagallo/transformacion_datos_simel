@@ -11,9 +11,6 @@ library(tidyr)
 
 ## Importación del dataset 
 
-# La versión original del tabulado se puede descargar desde http://stat.ine.cl/
-# Previamente se limpiaron las celdas y columnas vacias, celdas compuestas, etc. 
-
 accidentes_fatales <- read_xlsx("./input/SUSESO_actidentes_trabajo _fatales.xlsx")
 
 
@@ -46,7 +43,7 @@ accidentes_fatales <-
                               region %in% "Arica y Parinacota" ~ "15",
                               region %in% "Ñuble" ~ "16",
                               region %in% "Sin información" ~ "_X",
-                              region %in% "Chile" ~ "_T")) # Se asumi{o que chile corresponde al total
+                              region %in% "Chile" ~ "_T")) # Se acordó que Chile corresponde al total
 
 accidentes_fatales |> group_by(AREA_REF) |> tally()
 
@@ -91,5 +88,6 @@ accidentes_fatales <-
 write_delim(accidentes_fatales, 
             file = "./output/suseso_accidentes_trabajo_fatales_transformado.csv",
             delim = ",",
-            quote = "needed")
+            quote = "needed",
+            na = "")
 

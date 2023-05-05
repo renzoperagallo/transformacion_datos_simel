@@ -1,0 +1,3447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF1</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2023-05-03T11:36:06.2994474-04:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Codelists>
+      <structure:Codelist id="CL_AREA" agencyID="CL01" version="1.0">
+        <common:Name xml:lang="es">Codelist de Area de referencia</common:Name>
+        <common:Name xml:lang="en">Codelist of Area de referencia</common:Name>
+        <structure:Code id="_T">
+          <common:Name xml:lang="es">Total nacional</common:Name>
+        </structure:Code>
+        <structure:Code id="01">
+          <common:Name xml:lang="es">Tarapacá</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="011">
+          <common:Name xml:lang="es">Iquique</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="01" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="01101">
+          <common:Name xml:lang="es">Iquique</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="011" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="01107">
+          <common:Name xml:lang="es">Alto Hospicio</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="011" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="014">
+          <common:Name xml:lang="es">Tamarugal</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="01" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="01401">
+          <common:Name xml:lang="es">Pozo Almonte</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="014" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="01402">
+          <common:Name xml:lang="es">Camiña</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="014" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="01403">
+          <common:Name xml:lang="es">Colchane</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="014" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="01404">
+          <common:Name xml:lang="es">Huara</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="014" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="01405">
+          <common:Name xml:lang="es">Pica</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="014" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="02">
+          <common:Name xml:lang="es">Antofagasta</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="021">
+          <common:Name xml:lang="es">Antofagasta</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="02" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="02101">
+          <common:Name xml:lang="es">Antofagasta</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="021" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="02102">
+          <common:Name xml:lang="es">Mejillones</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="021" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="02103">
+          <common:Name xml:lang="es">Sierra Gorda</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="021" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="02104">
+          <common:Name xml:lang="es">Taltal</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="021" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="022">
+          <common:Name xml:lang="es">El Loa</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="02" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="02201">
+          <common:Name xml:lang="es">Calama</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="022" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="02202">
+          <common:Name xml:lang="es">Ollagüe</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="022" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="02203">
+          <common:Name xml:lang="es">San Pedro de Atacama</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="022" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="023">
+          <common:Name xml:lang="es">Tocopilla</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="02" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="02301">
+          <common:Name xml:lang="es">Tocopilla</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="023" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="02302">
+          <common:Name xml:lang="es">María Elena</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="023" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="03">
+          <common:Name xml:lang="es">Atacama</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="031">
+          <common:Name xml:lang="es">Copiapó</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="03" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="03101">
+          <common:Name xml:lang="es">Copiapó</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="031" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="03102">
+          <common:Name xml:lang="es">Caldera</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="031" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="03103">
+          <common:Name xml:lang="es">Tierra Amarilla</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="031" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="032">
+          <common:Name xml:lang="es">Chañaral</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="03" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="03201">
+          <common:Name xml:lang="es">Chañaral</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="032" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="03202">
+          <common:Name xml:lang="es">Diego de Almagro</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="032" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="033">
+          <common:Name xml:lang="es">Huasco</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="03" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="03301">
+          <common:Name xml:lang="es">Vallenar</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="033" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="03302">
+          <common:Name xml:lang="es">Alto del Carmen</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="033" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="03303">
+          <common:Name xml:lang="es">Freirina</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="033" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="03304">
+          <common:Name xml:lang="es">Huasco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="033" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04">
+          <common:Name xml:lang="es">Coquimbo</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="041">
+          <common:Name xml:lang="es">Elqui</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="04" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04101">
+          <common:Name xml:lang="es">La Serena</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="041" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04102">
+          <common:Name xml:lang="es">Coquimbo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="041" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04103">
+          <common:Name xml:lang="es">Andacollo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="041" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04104">
+          <common:Name xml:lang="es">La Higuera</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="041" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04105">
+          <common:Name xml:lang="es">Paiguano</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="041" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04106">
+          <common:Name xml:lang="es">Vicuña</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="041" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="042">
+          <common:Name xml:lang="es">Choapa</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="04" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04201">
+          <common:Name xml:lang="es">Illapel</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="042" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04202">
+          <common:Name xml:lang="es">Canela</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="042" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04203">
+          <common:Name xml:lang="es">Los Vilos</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="042" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04204">
+          <common:Name xml:lang="es">Salamanca</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="042" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="043">
+          <common:Name xml:lang="es">Limarí</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="04" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04301">
+          <common:Name xml:lang="es">Ovalle</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="043" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04302">
+          <common:Name xml:lang="es">Combarbalá</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="043" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04303">
+          <common:Name xml:lang="es">Monte Patria</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="043" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04304">
+          <common:Name xml:lang="es">Punitaqui</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="043" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="04305">
+          <common:Name xml:lang="es">Río Hurtado</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="043" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05">
+          <common:Name xml:lang="es">Valparaíso</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="051">
+          <common:Name xml:lang="es">Valparaíso</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="05" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05101">
+          <common:Name xml:lang="es">Valparaíso</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="051" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05102">
+          <common:Name xml:lang="es">Casablanca</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="051" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05103">
+          <common:Name xml:lang="es">Concón</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="051" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05104">
+          <common:Name xml:lang="es">Juan Fernández</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="051" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05105">
+          <common:Name xml:lang="es">Puchuncaví</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="051" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05107">
+          <common:Name xml:lang="es">Quintero</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="051" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05109">
+          <common:Name xml:lang="es">Viña del Mar</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="051" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="052">
+          <common:Name xml:lang="es">Isla de Pascua</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="05" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05201">
+          <common:Name xml:lang="es">Isla de Pascua</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="052" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="053">
+          <common:Name xml:lang="es">Los Andes</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="05" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05301">
+          <common:Name xml:lang="es">Los Andes</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="053" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05302">
+          <common:Name xml:lang="es">Calle Larga</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="053" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05303">
+          <common:Name xml:lang="es">Rinconada</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="053" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05304">
+          <common:Name xml:lang="es">San Esteban</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="053" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="054">
+          <common:Name xml:lang="es">Petorca</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="05" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05401">
+          <common:Name xml:lang="es">La Ligua</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="054" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05402">
+          <common:Name xml:lang="es">Cabildo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="054" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05403">
+          <common:Name xml:lang="es">Papudo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="054" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05404">
+          <common:Name xml:lang="es">Petorca</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="054" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05405">
+          <common:Name xml:lang="es">Zapallar</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="054" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="055">
+          <common:Name xml:lang="es">Quillota</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="05" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05501">
+          <common:Name xml:lang="es">Quillota</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="055" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05502">
+          <common:Name xml:lang="es">Calera</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="055" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05503">
+          <common:Name xml:lang="es">Hijuelas</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="055" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05504">
+          <common:Name xml:lang="es">La Cruz</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="055" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05506">
+          <common:Name xml:lang="es">Nogales</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="055" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="056">
+          <common:Name xml:lang="es">San Antonio</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="05" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05601">
+          <common:Name xml:lang="es">San Antonio</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="056" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05602">
+          <common:Name xml:lang="es">Algarrobo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="056" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05603">
+          <common:Name xml:lang="es">Cartagena</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="056" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05604">
+          <common:Name xml:lang="es">El Quisco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="056" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05605">
+          <common:Name xml:lang="es">El Tabo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="056" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05606">
+          <common:Name xml:lang="es">Santo Domingo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="056" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="057">
+          <common:Name xml:lang="es">San Felipe de Aconcagua</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="05" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05701">
+          <common:Name xml:lang="es">San Felipe</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="057" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05702">
+          <common:Name xml:lang="es">Catemu</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="057" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05703">
+          <common:Name xml:lang="es">Llaillay</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="057" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05704">
+          <common:Name xml:lang="es">Panquehue</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="057" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05705">
+          <common:Name xml:lang="es">Putaendo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="057" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05706">
+          <common:Name xml:lang="es">Santa María</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="057" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="058">
+          <common:Name xml:lang="es">Marga Marga</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="05" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05801">
+          <common:Name xml:lang="es">Quilpué</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="058" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05802">
+          <common:Name xml:lang="es">Limache</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="058" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05803">
+          <common:Name xml:lang="es">Olmué</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="058" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="05804">
+          <common:Name xml:lang="es">Villa Alemana</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="058" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06">
+          <common:Name xml:lang="es">Libertador General Bernardo O'Higgins</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="061">
+          <common:Name xml:lang="es">Cachapoal</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="06" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06101">
+          <common:Name xml:lang="es">Rancagua</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06102">
+          <common:Name xml:lang="es">Codegua</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06103">
+          <common:Name xml:lang="es">Coinco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06104">
+          <common:Name xml:lang="es">Coltauco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06105">
+          <common:Name xml:lang="es">Doñihue</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06106">
+          <common:Name xml:lang="es">Graneros</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06107">
+          <common:Name xml:lang="es">Las Cabras</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06108">
+          <common:Name xml:lang="es">Machalí</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06109">
+          <common:Name xml:lang="es">Malloa</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06110">
+          <common:Name xml:lang="es">Mostazal</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06111">
+          <common:Name xml:lang="es">Olivar</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06112">
+          <common:Name xml:lang="es">Peumo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06113">
+          <common:Name xml:lang="es">Pichidegua</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06114">
+          <common:Name xml:lang="es">Quinta de Tilcoco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06115">
+          <common:Name xml:lang="es">Rengo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06116">
+          <common:Name xml:lang="es">Requínoa</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06117">
+          <common:Name xml:lang="es">San Vicente</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="061" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="062">
+          <common:Name xml:lang="es">Cardenal Caro</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="06" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06201">
+          <common:Name xml:lang="es">Pichilemu</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="062" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06202">
+          <common:Name xml:lang="es">La Estrella</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="062" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06203">
+          <common:Name xml:lang="es">Litueche</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="062" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06204">
+          <common:Name xml:lang="es">Marchihue</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="062" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06205">
+          <common:Name xml:lang="es">Navidad</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="062" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06206">
+          <common:Name xml:lang="es">Paredones</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="062" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="063">
+          <common:Name xml:lang="es">Colchagua</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="06" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06301">
+          <common:Name xml:lang="es">San Fernando</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="063" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06302">
+          <common:Name xml:lang="es">Chépica</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="063" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06303">
+          <common:Name xml:lang="es">Chimbarongo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="063" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06304">
+          <common:Name xml:lang="es">Lolol</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="063" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06305">
+          <common:Name xml:lang="es">Nancagua</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="063" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06306">
+          <common:Name xml:lang="es">Palmilla</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="063" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06307">
+          <common:Name xml:lang="es">Peralillo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="063" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06308">
+          <common:Name xml:lang="es">Placilla</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="063" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06309">
+          <common:Name xml:lang="es">Pumanque</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="063" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="06310">
+          <common:Name xml:lang="es">Santa Cruz</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="063" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07">
+          <common:Name xml:lang="es">Maule</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="071">
+          <common:Name xml:lang="es">Talca</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="07" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07101">
+          <common:Name xml:lang="es">Talca</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="071" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07102">
+          <common:Name xml:lang="es">Constitución</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="071" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07103">
+          <common:Name xml:lang="es">Curepto</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="071" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07104">
+          <common:Name xml:lang="es">Empedrado</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="071" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07105">
+          <common:Name xml:lang="es">Maule</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="071" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07106">
+          <common:Name xml:lang="es">Pelarco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="071" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07107">
+          <common:Name xml:lang="es">Pencahue</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="071" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07108">
+          <common:Name xml:lang="es">Río Claro</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="071" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07109">
+          <common:Name xml:lang="es">San Clemente</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="071" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07110">
+          <common:Name xml:lang="es">San Rafael</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="071" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="072">
+          <common:Name xml:lang="es">Cauquenes</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="07" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07201">
+          <common:Name xml:lang="es">Cauquenes</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="072" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07202">
+          <common:Name xml:lang="es">Chanco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="072" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07203">
+          <common:Name xml:lang="es">Pelluhue</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="072" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="073">
+          <common:Name xml:lang="es">Curicó</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="07" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07301">
+          <common:Name xml:lang="es">Curicó</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="073" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07302">
+          <common:Name xml:lang="es">Hualañé</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="073" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07303">
+          <common:Name xml:lang="es">Licantén</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="073" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07304">
+          <common:Name xml:lang="es">Molina</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="073" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07305">
+          <common:Name xml:lang="es">Rauco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="073" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07306">
+          <common:Name xml:lang="es">Romeral</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="073" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07307">
+          <common:Name xml:lang="es">Sagrada Familia</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="073" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07308">
+          <common:Name xml:lang="es">Teno</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="073" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07309">
+          <common:Name xml:lang="es">Vichuquén</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="073" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="074">
+          <common:Name xml:lang="es">Linares</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="07" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07401">
+          <common:Name xml:lang="es">Linares</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="074" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07402">
+          <common:Name xml:lang="es">Colbún</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="074" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07403">
+          <common:Name xml:lang="es">Longaví</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="074" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07404">
+          <common:Name xml:lang="es">Parral</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="074" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07405">
+          <common:Name xml:lang="es">Retiro</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="074" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07406">
+          <common:Name xml:lang="es">San Javier</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="074" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07407">
+          <common:Name xml:lang="es">Villa Alegre</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="074" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="07408">
+          <common:Name xml:lang="es">Yerbas Buenas</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="074" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08">
+          <common:Name xml:lang="es">Biobío</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="081">
+          <common:Name xml:lang="es">Concepción</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="08" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08101">
+          <common:Name xml:lang="es">Concepción</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="081" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08102">
+          <common:Name xml:lang="es">Coronel</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="081" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08103">
+          <common:Name xml:lang="es">Chiguayante</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="081" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08104">
+          <common:Name xml:lang="es">Florida</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="081" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08105">
+          <common:Name xml:lang="es">Hualqui</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="081" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08106">
+          <common:Name xml:lang="es">Lota</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="081" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08107">
+          <common:Name xml:lang="es">Penco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="081" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08108">
+          <common:Name xml:lang="es">San Pedro de la Paz</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="081" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08109">
+          <common:Name xml:lang="es">Santa Juana</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="081" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08110">
+          <common:Name xml:lang="es">Talcahuano</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="081" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08111">
+          <common:Name xml:lang="es">Tomé</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="081" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08112">
+          <common:Name xml:lang="es">Hualpén</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="081" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="082">
+          <common:Name xml:lang="es">Arauco</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="08" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08201">
+          <common:Name xml:lang="es">Lebu</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="082" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08202">
+          <common:Name xml:lang="es">Arauco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="082" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08203">
+          <common:Name xml:lang="es">Cañete</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="082" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08204">
+          <common:Name xml:lang="es">Contulmo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="082" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08205">
+          <common:Name xml:lang="es">Curanilahue</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="082" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08206">
+          <common:Name xml:lang="es">Los Alamos</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="082" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08207">
+          <common:Name xml:lang="es">Tirúa</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="082" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="083">
+          <common:Name xml:lang="es">Biobío</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="08" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08301">
+          <common:Name xml:lang="es">Los Angeles</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="083" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08302">
+          <common:Name xml:lang="es">Antuco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="083" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08303">
+          <common:Name xml:lang="es">Cabrero</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="083" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08304">
+          <common:Name xml:lang="es">Laja</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="083" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08305">
+          <common:Name xml:lang="es">Mulchén</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="083" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08306">
+          <common:Name xml:lang="es">Nacimiento</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="083" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08307">
+          <common:Name xml:lang="es">Negrete</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="083" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08308">
+          <common:Name xml:lang="es">Quilaco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="083" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08309">
+          <common:Name xml:lang="es">Quilleco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="083" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08310">
+          <common:Name xml:lang="es">San Rosendo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="083" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08311">
+          <common:Name xml:lang="es">Santa Bárbara</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="083" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08312">
+          <common:Name xml:lang="es">Tucapel</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="083" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08313">
+          <common:Name xml:lang="es">Yumbel</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="083" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="08314">
+          <common:Name xml:lang="es">Alto Biobío</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="083" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09">
+          <common:Name xml:lang="es">La Araucanía</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="091">
+          <common:Name xml:lang="es">Cautín</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="09" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09101">
+          <common:Name xml:lang="es">Temuco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09102">
+          <common:Name xml:lang="es">Carahue</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09103">
+          <common:Name xml:lang="es">Cunco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09104">
+          <common:Name xml:lang="es">Curarrehue</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09105">
+          <common:Name xml:lang="es">Freire</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09106">
+          <common:Name xml:lang="es">Galvarino</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09107">
+          <common:Name xml:lang="es">Gorbea</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09108">
+          <common:Name xml:lang="es">Lautaro</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09109">
+          <common:Name xml:lang="es">Loncoche</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09110">
+          <common:Name xml:lang="es">Melipeuco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09111">
+          <common:Name xml:lang="es">Nueva Imperial</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09112">
+          <common:Name xml:lang="es">Padre Las Casas</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09113">
+          <common:Name xml:lang="es">Perquenco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09114">
+          <common:Name xml:lang="es">Pitrufquén</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09115">
+          <common:Name xml:lang="es">Pucón</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09116">
+          <common:Name xml:lang="es">Saavedra</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09117">
+          <common:Name xml:lang="es">Teodoro Schmidt</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09118">
+          <common:Name xml:lang="es">Toltén</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09119">
+          <common:Name xml:lang="es">Vilcún</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09120">
+          <common:Name xml:lang="es">Villarrica</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09121">
+          <common:Name xml:lang="es">Cholchol</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="091" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="092">
+          <common:Name xml:lang="es">Malleco</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="09" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09201">
+          <common:Name xml:lang="es">Angol</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="092" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09202">
+          <common:Name xml:lang="es">Collipulli</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="092" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09203">
+          <common:Name xml:lang="es">Curacautín</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="092" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09204">
+          <common:Name xml:lang="es">Ercilla</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="092" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09205">
+          <common:Name xml:lang="es">Lonquimay</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="092" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09206">
+          <common:Name xml:lang="es">Los Sauces</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="092" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09207">
+          <common:Name xml:lang="es">Lumaco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="092" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09208">
+          <common:Name xml:lang="es">Purén</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="092" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09209">
+          <common:Name xml:lang="es">Renaico</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="092" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09210">
+          <common:Name xml:lang="es">Traiguén</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="092" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="09211">
+          <common:Name xml:lang="es">Victoria</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="092" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10">
+          <common:Name xml:lang="es">Los Lagos</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="101">
+          <common:Name xml:lang="es">Llanquihue</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="10" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10101">
+          <common:Name xml:lang="es">Puerto Montt</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="101" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10102">
+          <common:Name xml:lang="es">Calbuco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="101" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10103">
+          <common:Name xml:lang="es">Cochamó</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="101" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10104">
+          <common:Name xml:lang="es">Fresia</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="101" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10105">
+          <common:Name xml:lang="es">Frutillar</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="101" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10106">
+          <common:Name xml:lang="es">Los Muermos</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="101" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10107">
+          <common:Name xml:lang="es">Llanquihue</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="101" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10108">
+          <common:Name xml:lang="es">Maullín</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="101" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10109">
+          <common:Name xml:lang="es">Puerto Varas</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="101" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="102">
+          <common:Name xml:lang="es">Chiloé</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="10" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10201">
+          <common:Name xml:lang="es">Castro</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="102" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10202">
+          <common:Name xml:lang="es">Ancud</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="102" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10203">
+          <common:Name xml:lang="es">Chonchi</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="102" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10204">
+          <common:Name xml:lang="es">Curaco de Vélez</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="102" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10205">
+          <common:Name xml:lang="es">Dalcahue</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="102" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10206">
+          <common:Name xml:lang="es">Puqueldón</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="102" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10207">
+          <common:Name xml:lang="es">Queilén</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="102" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10208">
+          <common:Name xml:lang="es">Quellón</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="102" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10209">
+          <common:Name xml:lang="es">Quemchi</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="102" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10210">
+          <common:Name xml:lang="es">Quinchao</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="102" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="103">
+          <common:Name xml:lang="es">Osorno</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="10" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10301">
+          <common:Name xml:lang="es">Osorno</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="103" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10302">
+          <common:Name xml:lang="es">Puerto Octay</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="103" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10303">
+          <common:Name xml:lang="es">Purranque</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="103" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10304">
+          <common:Name xml:lang="es">Puyehue</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="103" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10305">
+          <common:Name xml:lang="es">Río Negro</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="103" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10306">
+          <common:Name xml:lang="es">San Juan de la Costa</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="103" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10307">
+          <common:Name xml:lang="es">San Pablo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="103" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="104">
+          <common:Name xml:lang="es">Palena</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="10" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10401">
+          <common:Name xml:lang="es">Chaitén</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="104" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10402">
+          <common:Name xml:lang="es">Futaleufú</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="104" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10403">
+          <common:Name xml:lang="es">Hualaihué</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="104" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="10404">
+          <common:Name xml:lang="es">Palena</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="104" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="11">
+          <common:Name xml:lang="es">Aysén del General Carlos Ibáñez del Campo</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="111">
+          <common:Name xml:lang="es">Coyhaique</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="11" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="11101">
+          <common:Name xml:lang="es">Coyhaique</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="111" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="11102">
+          <common:Name xml:lang="es">Lago Verde</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="111" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="112">
+          <common:Name xml:lang="es">Aysén</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="11" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="11201">
+          <common:Name xml:lang="es">Aysén</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="112" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="11202">
+          <common:Name xml:lang="es">Cisnes</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="112" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="11203">
+          <common:Name xml:lang="es">Guaitecas</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="112" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="113">
+          <common:Name xml:lang="es">Capitán Prat</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="11" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="11301">
+          <common:Name xml:lang="es">Cochrane</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="113" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="11302">
+          <common:Name xml:lang="es">O'Higgins</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="113" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="11303">
+          <common:Name xml:lang="es">Tortel</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="113" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="114">
+          <common:Name xml:lang="es">General Carrera</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="11" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="11401">
+          <common:Name xml:lang="es">Chile Chico</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="114" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="11402">
+          <common:Name xml:lang="es">Río Ibáñez</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="114" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="12">
+          <common:Name xml:lang="es">Magallanes y de la Antártica Chilena</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="121">
+          <common:Name xml:lang="es">Magallanes</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="12" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="12101">
+          <common:Name xml:lang="es">Punta Arenas</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="121" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="12102">
+          <common:Name xml:lang="es">Laguna Blanca</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="121" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="12103">
+          <common:Name xml:lang="es">Río Verde</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="121" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="12104">
+          <common:Name xml:lang="es">San Gregorio</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="121" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="122">
+          <common:Name xml:lang="es">Antártica Chilena</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="12" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="12201">
+          <common:Name xml:lang="es">Cabo de Hornos</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="122" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="12202">
+          <common:Name xml:lang="es">Antártica</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="122" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="123">
+          <common:Name xml:lang="es">Tierra del Fuego</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="12" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="12301">
+          <common:Name xml:lang="es">Porvenir</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="123" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="12302">
+          <common:Name xml:lang="es">Primavera</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="123" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="12303">
+          <common:Name xml:lang="es">Timaukel</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="123" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="124">
+          <common:Name xml:lang="es">Última Esperanza</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="12" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="12401">
+          <common:Name xml:lang="es">Natales</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="124" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="12402">
+          <common:Name xml:lang="es">Torres del Paine</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="124" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13">
+          <common:Name xml:lang="es">Metropolitana de Santiago</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="131">
+          <common:Name xml:lang="es">Santiago</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="13" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13101">
+          <common:Name xml:lang="es">Santiago</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13102">
+          <common:Name xml:lang="es">Cerrillos</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13103">
+          <common:Name xml:lang="es">Cerro Navia</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13104">
+          <common:Name xml:lang="es">Conchalí</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13105">
+          <common:Name xml:lang="es">El Bosque</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13106">
+          <common:Name xml:lang="es">Estación Central</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13107">
+          <common:Name xml:lang="es">Huechuraba</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13108">
+          <common:Name xml:lang="es">Independencia</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13109">
+          <common:Name xml:lang="es">La Cisterna</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13110">
+          <common:Name xml:lang="es">La Florida</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13111">
+          <common:Name xml:lang="es">La Granja</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13112">
+          <common:Name xml:lang="es">La Pintana</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13113">
+          <common:Name xml:lang="es">La Reina</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13114">
+          <common:Name xml:lang="es">Las Condes</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13115">
+          <common:Name xml:lang="es">Lo Barnechea</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13116">
+          <common:Name xml:lang="es">Lo Espejo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13117">
+          <common:Name xml:lang="es">Lo Prado</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13118">
+          <common:Name xml:lang="es">Macul</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13119">
+          <common:Name xml:lang="es">Maipú</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13120">
+          <common:Name xml:lang="es">Ñuñoa</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13121">
+          <common:Name xml:lang="es">Pedro Aguirre Cerda</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13122">
+          <common:Name xml:lang="es">Peñalolén</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13123">
+          <common:Name xml:lang="es">Providencia</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13124">
+          <common:Name xml:lang="es">Pudahuel</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13125">
+          <common:Name xml:lang="es">Quilicura</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13126">
+          <common:Name xml:lang="es">Quinta Normal</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13127">
+          <common:Name xml:lang="es">Recoleta</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13128">
+          <common:Name xml:lang="es">Renca</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13129">
+          <common:Name xml:lang="es">San Joaquín</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13130">
+          <common:Name xml:lang="es">San Miguel</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13131">
+          <common:Name xml:lang="es">San Ramón</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13132">
+          <common:Name xml:lang="es">Vitacura</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="131" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="132">
+          <common:Name xml:lang="es">Cordillera</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="13" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13201">
+          <common:Name xml:lang="es">Puente Alto</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="132" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13202">
+          <common:Name xml:lang="es">Pirque</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="132" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13203">
+          <common:Name xml:lang="es">San José de Maipo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="132" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="133">
+          <common:Name xml:lang="es">Chacabuco</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="13" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13301">
+          <common:Name xml:lang="es">Colina</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="133" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13302">
+          <common:Name xml:lang="es">Lampa</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="133" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13303">
+          <common:Name xml:lang="es">Tiltil</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="133" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="134">
+          <common:Name xml:lang="es">Maipo</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="13" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13401">
+          <common:Name xml:lang="es">San Bernardo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="134" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13402">
+          <common:Name xml:lang="es">Buin</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="134" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13403">
+          <common:Name xml:lang="es">Calera de Tango</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="134" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13404">
+          <common:Name xml:lang="es">Paine</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="134" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="135">
+          <common:Name xml:lang="es">Melipilla</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="13" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13501">
+          <common:Name xml:lang="es">Melipilla</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="135" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13502">
+          <common:Name xml:lang="es">Alhué</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="135" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13503">
+          <common:Name xml:lang="es">Curacaví</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="135" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13504">
+          <common:Name xml:lang="es">María Pinto</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="135" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13505">
+          <common:Name xml:lang="es">San Pedro</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="135" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="136">
+          <common:Name xml:lang="es">Talagante</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="13" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13601">
+          <common:Name xml:lang="es">Talagante</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="136" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13602">
+          <common:Name xml:lang="es">El Monte</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="136" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13603">
+          <common:Name xml:lang="es">Isla de Maipo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="136" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13604">
+          <common:Name xml:lang="es">Padre Hurtado</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="136" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="13605">
+          <common:Name xml:lang="es">Peñaflor</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="136" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="14">
+          <common:Name xml:lang="es">Los Ríos</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="141">
+          <common:Name xml:lang="es">Valdivia</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="14" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="14101">
+          <common:Name xml:lang="es">Valdivia</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="141" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="14102">
+          <common:Name xml:lang="es">Corral</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="141" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="14103">
+          <common:Name xml:lang="es">Lanco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="141" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="14104">
+          <common:Name xml:lang="es">Los Lagos</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="141" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="14105">
+          <common:Name xml:lang="es">Máfil</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="141" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="14106">
+          <common:Name xml:lang="es">Mariquina</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="141" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="14107">
+          <common:Name xml:lang="es">Paillaco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="141" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="14108">
+          <common:Name xml:lang="es">Panguipulli</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="141" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="142">
+          <common:Name xml:lang="es">Ranco</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="14" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="14201">
+          <common:Name xml:lang="es">La Unión</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="142" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="14202">
+          <common:Name xml:lang="es">Futrono</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="142" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="14203">
+          <common:Name xml:lang="es">Lago Ranco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="142" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="14204">
+          <common:Name xml:lang="es">Río Bueno</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="142" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="15">
+          <common:Name xml:lang="es">Arica y Parinacota</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="151">
+          <common:Name xml:lang="es">Arica</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="15" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="15101">
+          <common:Name xml:lang="es">Arica</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="151" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="15102">
+          <common:Name xml:lang="es">Camarones</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="151" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="152">
+          <common:Name xml:lang="es">Parinacota</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="15" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="15201">
+          <common:Name xml:lang="es">Putre</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="152" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="15202">
+          <common:Name xml:lang="es">General Lagos</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="152" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16">
+          <common:Name xml:lang="es">Ñuble</common:Name>
+          <common:Description xml:lang="es">Región</common:Description>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="161">
+          <common:Name xml:lang="es">Diguillín</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="16" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16101">
+          <common:Name xml:lang="es">Chillán</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="161" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16102">
+          <common:Name xml:lang="es">Bulnes</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="161" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16103">
+          <common:Name xml:lang="es">Chillán Viejo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="161" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16104">
+          <common:Name xml:lang="es">El Carmen</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="161" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16105">
+          <common:Name xml:lang="es">Pemuco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="161" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16106">
+          <common:Name xml:lang="es">Pinto</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="161" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16107">
+          <common:Name xml:lang="es">Quillón</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="161" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16108">
+          <common:Name xml:lang="es">San Ignacio</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="161" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16109">
+          <common:Name xml:lang="es">Yungay</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="161" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="162">
+          <common:Name xml:lang="es">Itata</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="16" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16201">
+          <common:Name xml:lang="es">Quirihue</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="162" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16202">
+          <common:Name xml:lang="es">Cobquecura</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="162" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16203">
+          <common:Name xml:lang="es">Coelemu</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="162" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16204">
+          <common:Name xml:lang="es">Ninhue</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="162" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16205">
+          <common:Name xml:lang="es">Portezuelo</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="162" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16206">
+          <common:Name xml:lang="es">Ranquil</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="162" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16207">
+          <common:Name xml:lang="es">Treguaco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="162" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="163">
+          <common:Name xml:lang="es">Punilla</common:Name>
+          <common:Description xml:lang="es">Provincia</common:Description>
+          <structure:Parent>
+            <Ref id="16" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16301">
+          <common:Name xml:lang="es">San Carlos</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="163" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16302">
+          <common:Name xml:lang="es">Coihueco</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="163" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16303">
+          <common:Name xml:lang="es">Ñiquén</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="163" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16304">
+          <common:Name xml:lang="es">San Fabián</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="163" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="16305">
+          <common:Name xml:lang="es">San Nicolás</common:Name>
+          <common:Description xml:lang="es">Comuna</common:Description>
+          <structure:Parent>
+            <Ref id="163" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="_X">
+          <common:Name xml:lang="es">Sin dato</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+        <structure:Code id="_Z">
+          <common:Name xml:lang="es">No aplicable</common:Name>
+          <structure:Parent>
+            <Ref id="_T" />
+          </structure:Parent>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_DECIMALS" agencyID="CL01" version="1.0">
+        <common:Name xml:lang="es">Decimales</common:Name>
+        <structure:Code id="0">
+          <common:Name xml:lang="es">0</common:Name>
+        </structure:Code>
+        <structure:Code id="1">
+          <common:Name xml:lang="es">1</common:Name>
+        </structure:Code>
+        <structure:Code id="2">
+          <common:Name xml:lang="es">2</common:Name>
+        </structure:Code>
+        <structure:Code id="3">
+          <common:Name xml:lang="es">3</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_FREQ" agencyID="CL01" version="1.0">
+        <common:Name xml:lang="es">Frecuencia</common:Name>
+        <structure:Code id="A2">
+          <common:Name xml:lang="es">Bianual</common:Name>
+        </structure:Code>
+        <structure:Code id="A">
+          <common:Name xml:lang="es">Anual</common:Name>
+        </structure:Code>
+        <structure:Code id="S">
+          <common:Name xml:lang="es">Semestral</common:Name>
+        </structure:Code>
+        <structure:Code id="M">
+          <common:Name xml:lang="es">Mensual</common:Name>
+        </structure:Code>
+        <structure:Code id="Q">
+          <common:Name xml:lang="es">Trimestral</common:Name>
+        </structure:Code>
+        <structure:Code id="_O">
+          <common:Name xml:lang="es">Otro</common:Name>
+        </structure:Code>
+        <structure:Code id="_Z">
+          <common:Name xml:lang="es">No aplicable</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_INDICADOR" agencyID="CL01" version="1.0">
+        <common:Name xml:lang="es">Codelist de Indicador</common:Name>
+        <common:Name xml:lang="en">Codelist of Indicador</common:Name>
+        <structure:Code id="NMIC">
+          <common:Name xml:lang="es">Número de personas microemprendedoras</common:Name>
+        </structure:Code>
+        <structure:Code id="NMICI">
+          <common:Name xml:lang="es">Número de microemprendedores informales</common:Name>
+        </structure:Code>
+        <structure:Code id="TMICI">
+          <common:Name xml:lang="es">Tasa de microemprendedores informales</common:Name>
+        </structure:Code>
+        <structure:Code id="IDS">
+          <common:Name xml:lang="es">Índice de densidad sindical</common:Name>
+        </structure:Code>
+        <structure:Code id="TCNC">
+          <common:Name xml:lang="es">Tasa de cobertura de Negoción Colectiva</common:Name>
+        </structure:Code>
+        <structure:Code id="TRL">
+          <common:Name xml:lang="es">Tasa de rotación laboral</common:Name>
+        </structure:Code>
+        <structure:Code id="TEL">
+          <common:Name xml:lang="es">Tasa de entrada laboral</common:Name>
+        </structure:Code>
+        <structure:Code id="TSL">
+          <common:Name xml:lang="es">Tasa de salida laboral</common:Name>
+        </structure:Code>
+        <structure:Code id="TDES">
+          <common:Name xml:lang="es">Tasa de desocupación (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="TP">
+          <common:Name xml:lang="es">Tasa de participación (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="TOCU">
+          <common:Name xml:lang="es">Tasa de ocupación (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="FDT">
+          <common:Name xml:lang="es">Fuerza de trabajo (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="OCU">
+          <common:Name xml:lang="es">Ocupados (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="DES">
+          <common:Name xml:lang="es">Desocupados (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="FFT">
+          <common:Name xml:lang="es">Fuera de la fuerza de trabajo (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="SU1">
+          <common:Name xml:lang="es">Tasa de desocupación con iniciadores disponibles (SU1) (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="SU2">
+          <common:Name xml:lang="es">Tasa combinada de desocupación y tiempo parcial involuntario (SU2) (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="TPI">
+          <common:Name xml:lang="es">Tasa de tiempo parcial involuntario (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="OBE">
+          <common:Name xml:lang="es">Tasa de ocupados que buscan empleo (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="TEA">
+          <common:Name xml:lang="es">Tasa de empleo asalariado (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="TDD">
+          <common:Name xml:lang="es">Tasa de desocupación desestacionalizada (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="TOI">
+          <common:Name xml:lang="es">Tasa de ocupación informal (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="OCUINF">
+          <common:Name xml:lang="es">Ocupados informales (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="TOIXAGR">
+          <common:Name xml:lang="es">Tasa de ocupación informal excluyendo al sector agropecuario (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="TOSI">
+          <common:Name xml:lang="es">Tasa de ocupación en el sector informal (proyecciones base 2002)</common:Name>
+        </structure:Code>
+        <structure:Code id="YRMEDOCU">
+          <common:Name xml:lang="es">Ingreso medio real de la población ocupada</common:Name>
+        </structure:Code>
+        <structure:Code id="YRMEDIAOCU">
+          <common:Name xml:lang="es">Ingreso mediano real de la población ocupada</common:Name>
+        </structure:Code>
+        <structure:Code id="YHRDEP">
+          <common:Name xml:lang="es">Ingreso real por hora de las personas asalariadas</common:Name>
+        </structure:Code>
+        <structure:Code id="YHNDEP">
+          <common:Name xml:lang="es">Ingreso nominal por hora de las personas asalariadas</common:Name>
+        </structure:Code>
+        <structure:Code id="YNMEDDEPXAGR">
+          <common:Name xml:lang="es">Ingreso medio nominal de las personas asalariadas en el sector no agropecuario</common:Name>
+        </structure:Code>
+        <structure:Code id="YNMEDIADEPXAGR">
+          <common:Name xml:lang="es">Ingreso mediano nominal de las personas asalariadas en el sector no agropecuario</common:Name>
+        </structure:Code>
+        <structure:Code id="YRMEDDEPCD">
+          <common:Name xml:lang="es">Ingreso medio real de las personas asalariadas con contrato definido</common:Name>
+        </structure:Code>
+        <structure:Code id="BGYMEDOCU">
+          <common:Name xml:lang="es">Brecha de género del ingreso medio de la población ocupada</common:Name>
+        </structure:Code>
+        <structure:Code id="BGYMEDIAOCU">
+          <common:Name xml:lang="es">Brecha de género del ingreso mediano de la población ocupada</common:Name>
+        </structure:Code>
+        <structure:Code id="BGYHDEP">
+          <common:Name xml:lang="es">Brecha de género del ingreso por hora de la población asalariada</common:Name>
+        </structure:Code>
+        <structure:Code id="PROCUSUBYMEDIA">
+          <common:Name xml:lang="es">Proporción de personas ocupadas que viven por debajo de la mediana de los ingresos</common:Name>
+        </structure:Code>
+        <structure:Code id="IR">
+          <common:Name xml:lang="es">Índice de remuneraciones</common:Name>
+        </structure:Code>
+        <structure:Code id="NCOTSC">
+          <common:Name xml:lang="es">Número de cotizantes al Seguro de Cesantía</common:Name>
+        </structure:Code>
+        <structure:Code id="TLOF">
+          <common:Name xml:lang="es">Tasa de frecuencia de accidentes del trabajo fatales</common:Name>
+        </structure:Code>
+        <structure:Code id="YMEDIOOCU">
+          <common:Name xml:lang="es">Ingreso medio nominal de la población ocupada</common:Name>
+        </structure:Code>
+        <structure:Code id="YMEDIANOOCU">
+          <common:Name xml:lang="es">Ingreso mediano nominal de la población ocupada</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_MULT" agencyID="CL01" version="1.0">
+        <common:Name xml:lang="es">Multiplicador</common:Name>
+        <structure:Code id="0">
+          <common:Name xml:lang="es">Unidades</common:Name>
+        </structure:Code>
+        <structure:Code id="3">
+          <common:Name xml:lang="es">Miles</common:Name>
+        </structure:Code>
+        <structure:Code id="6">
+          <common:Name xml:lang="es">Millones</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_SEXO" agencyID="CL01" version="1.0">
+        <common:Name xml:lang="es">Sexo</common:Name>
+        <structure:Code id="_T">
+          <common:Name xml:lang="es">Total</common:Name>
+        </structure:Code>
+        <structure:Code id="M">
+          <common:Name xml:lang="es">Hombre</common:Name>
+        </structure:Code>
+        <structure:Code id="F">
+          <common:Name xml:lang="es">Mujer</common:Name>
+        </structure:Code>
+        <structure:Code id="_X">
+          <common:Name xml:lang="es">Sin dato</common:Name>
+        </structure:Code>
+        <structure:Code id="_Z">
+          <common:Name xml:lang="es">No aplicable</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_TDCON" agencyID="CL01" version="1.0" isFinal="true">
+        <common:Name xml:lang="es">Codelist of Tipo de contrato</common:Name>
+        <structure:Code id="TDC_1">
+          <common:Name xml:lang="es">Limitado a la temporada</common:Name>
+        </structure:Code>
+        <structure:Code id="TDC_2">
+          <common:Name xml:lang="es">Limitado al término de la obra, proyecto o actividad</common:Name>
+        </structure:Code>
+        <structure:Code id="TDC_3">
+          <common:Name xml:lang="es">Limitado a menos de tres meses (a prueba o práctica)</common:Name>
+        </structure:Code>
+        <structure:Code id="TDC_4">
+          <common:Name xml:lang="es">Renovable una vez al año</common:Name>
+        </structure:Code>
+        <structure:Code id="TDC_5">
+          <common:Name xml:lang="es">Por reemplazo</common:Name>
+        </structure:Code>
+        <structure:Code id="TDC_6">
+          <common:Name xml:lang="es">No sabe</common:Name>
+        </structure:Code>
+        <structure:Code id="TDC_7">
+          <common:Name xml:lang="es">Indefinido</common:Name>
+        </structure:Code>
+        <structure:Code id="TDC_8">
+          <common:Name xml:lang="es">Plazo Fijo (Definido)</common:Name>
+        </structure:Code>
+        <structure:Code id="TDC_9">
+          <common:Name xml:lang="es">Trabajador(a) de Casa Particular</common:Name>
+        </structure:Code>
+        <structure:Code id="_X">
+          <common:Name xml:lang="es">Sin dato</common:Name>
+        </structure:Code>
+        <structure:Code id="_Z">
+          <common:Name xml:lang="es">No aplicable</common:Name>
+        </structure:Code>
+        <structure:Code id="_T">
+          <common:Name xml:lang="es">Total</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+      <structure:Codelist id="CL_UNIDAD" agencyID="CL01" version="1.0">
+        <common:Name xml:lang="es">Unidad</common:Name>
+        <structure:Code id="NB">
+          <common:Name xml:lang="es">Número</common:Name>
+        </structure:Code>
+        <structure:Code id="RT">
+          <common:Name xml:lang="es">Tasa</common:Name>
+        </structure:Code>
+        <structure:Code id="IX">
+          <common:Name xml:lang="es">Índice</common:Name>
+        </structure:Code>
+        <structure:Code id="DT">
+          <common:Name xml:lang="es">Distribución</common:Name>
+        </structure:Code>
+        <structure:Code id="VAR12">
+          <common:Name xml:lang="es">Variacion a 12 meses</common:Name>
+        </structure:Code>
+        <structure:Code id="_O">
+          <common:Name xml:lang="es">Otro</common:Name>
+        </structure:Code>
+        <structure:Code id="PS">
+          <common:Name xml:lang="es">Persona</common:Name>
+        </structure:Code>
+        <structure:Code id="MES">
+          <common:Name xml:lang="es">Meses</common:Name>
+        </structure:Code>
+        <structure:Code id="PT">
+          <common:Name xml:lang="es">Porcentaje</common:Name>
+        </structure:Code>
+        <structure:Code id="PP">
+          <common:Name xml:lang="es">Puntos porcentuales</common:Name>
+        </structure:Code>
+        <structure:Code id="CLP">
+          <common:Name xml:lang="es">Pesos chilenos</common:Name>
+        </structure:Code>
+        <structure:Code id="CLPHR">
+          <common:Name xml:lang="es">Pesos chilenos por hora</common:Name>
+        </structure:Code>
+        <structure:Code id="HR">
+          <common:Name xml:lang="es">Horas</common:Name>
+        </structure:Code>
+        <structure:Code id="DS">
+          <common:Name xml:lang="es">Dias</common:Name>
+        </structure:Code>
+        <structure:Code id="EMP">
+          <common:Name xml:lang="es">Empresas</common:Name>
+        </structure:Code>
+        <structure:Code id="HOG">
+          <common:Name xml:lang="es">Hogares</common:Name>
+        </structure:Code>
+        <structure:Code id="PUESTOS">
+          <common:Name xml:lang="es">Puestos de trabajo</common:Name>
+        </structure:Code>
+        <structure:Code id="CASOS">
+          <common:Name xml:lang="es">Casos</common:Name>
+        </structure:Code>
+      </structure:Codelist>
+    </structure:Codelists>
+    <structure:Concepts>
+      <structure:ConceptScheme id="SIMEL_CL" agencyID="CL01" version="1.0" isFinal="false">
+        <common:Name xml:lang="es">CS_DEFAULT Name</common:Name>
+        <structure:Concept id="AREA_REF">
+          <common:Name xml:lang="es">Area de referencia</common:Name>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>
+              <Ref id="CL_AREA" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+            </structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="FREQ">
+          <common:Name xml:lang="es">Frecuencia</common:Name>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>
+              <Ref id="CL_FREQ" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+            </structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="INDICADOR">
+          <common:Name xml:lang="es">Indicador</common:Name>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>
+              <Ref id="CL_INDICADOR" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+            </structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="SEXO">
+          <common:Name xml:lang="es">Sexo</common:Name>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>
+              <Ref id="CL_SEXO" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+            </structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="TDCON">
+          <common:Name xml:lang="es">Tipo de contrato</common:Name>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>
+              <Ref id="CL_TDCON" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+            </structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="TIME_PERIOD">
+          <common:Name xml:lang="es">Periodo de referencia</common:Name>
+        </structure:Concept>
+        <structure:Concept id="OBS_VALUE">
+          <common:Name xml:lang="en">Valor de la observacion</common:Name>
+          <common:Name xml:lang="es">Valor de la observacion</common:Name>
+        </structure:Concept>
+        <structure:Concept id="DECIMALS">
+          <common:Name xml:lang="es">Décimales</common:Name>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>
+              <Ref id="CL_DECIMALS" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+            </structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="UNIDAD">
+          <common:Name xml:lang="es">Unidad de medida</common:Name>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>
+              <Ref id="CL_UNIDAD" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+            </structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+        <structure:Concept id="MULT">
+          <common:Name xml:lang="es">Multiplicador</common:Name>
+          <structure:CoreRepresentation>
+            <structure:Enumeration>
+              <Ref id="CL_MULT" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+            </structure:Enumeration>
+          </structure:CoreRepresentation>
+        </structure:Concept>
+      </structure:ConceptScheme>
+    </structure:Concepts>
+    <structure:DataStructures>
+      <structure:DataStructure id="DSD_INDICADOR_SEXO_TDCON" agencyID="SIMEL_CL" version="1.0" isFinal="false">
+        <common:Name xml:lang="es">DSD with breakdowns: Indicador, Sexo and Tipo de contrato</common:Name>
+        <structure:DataStructureComponents>
+          <structure:DimensionList id="DimensionDescriptor">
+            <structure:Dimension id="AREA_REF" position="1">
+              <structure:ConceptIdentity>
+                <Ref id="AREA_REF" maintainableParentID="SIMEL_CL" maintainableParentVersion="1.0" agencyID="CL01" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_AREA" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="FREQ" position="2">
+              <structure:ConceptIdentity>
+                <Ref id="FREQ" maintainableParentID="SIMEL_CL" maintainableParentVersion="1.0" agencyID="CL01" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_FREQ" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="INDICADOR" position="3">
+              <structure:ConceptIdentity>
+                <Ref id="INDICADOR" maintainableParentID="SIMEL_CL" maintainableParentVersion="1.0" agencyID="CL01" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_INDICADOR" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="SEXO" position="4">
+              <structure:ConceptIdentity>
+                <Ref id="SEXO" maintainableParentID="SIMEL_CL" maintainableParentVersion="1.0" agencyID="CL01" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_SEXO" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:Dimension id="TDCON" position="5">
+              <structure:ConceptIdentity>
+                <Ref id="TDCON" maintainableParentID="SIMEL_CL" maintainableParentVersion="1.0" agencyID="CL01" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_TDCON" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+            </structure:Dimension>
+            <structure:TimeDimension id="TIME_PERIOD" position="6">
+              <structure:ConceptIdentity>
+                <Ref id="TIME_PERIOD" maintainableParentID="SIMEL_CL" maintainableParentVersion="1.0" agencyID="CL01" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="ObservationalTimePeriod" />
+              </structure:LocalRepresentation>
+            </structure:TimeDimension>
+          </structure:DimensionList>
+          <structure:AttributeList id="AttributeDescriptor">
+            <structure:Attribute id="DECIMALS" assignmentStatus="Conditional">
+              <structure:ConceptIdentity>
+                <Ref id="DECIMALS" maintainableParentID="SIMEL_CL" maintainableParentVersion="1.0" agencyID="CL01" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_DECIMALS" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+              <structure:AttributeRelationship>
+                <structure:PrimaryMeasure>
+                  <Ref id="OBS_VALUE" />
+                </structure:PrimaryMeasure>
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="UNIDAD" assignmentStatus="Conditional">
+              <structure:ConceptIdentity>
+                <Ref id="UNIDAD" maintainableParentID="SIMEL_CL" maintainableParentVersion="1.0" agencyID="CL01" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_UNIDAD" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+              <structure:AttributeRelationship>
+                <structure:None />
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+            <structure:Attribute id="MULT" assignmentStatus="Conditional">
+              <structure:ConceptIdentity>
+                <Ref id="MULT" maintainableParentID="SIMEL_CL" maintainableParentVersion="1.0" agencyID="CL01" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:Enumeration>
+                  <Ref id="CL_MULT" version="1.0" agencyID="CL01" package="codelist" class="Codelist" />
+                </structure:Enumeration>
+              </structure:LocalRepresentation>
+              <structure:AttributeRelationship>
+                <structure:None />
+              </structure:AttributeRelationship>
+            </structure:Attribute>
+          </structure:AttributeList>
+          <structure:MeasureList id="MeasureDescriptor">
+            <structure:PrimaryMeasure id="OBS_VALUE">
+              <structure:ConceptIdentity>
+                <Ref id="OBS_VALUE" maintainableParentID="SIMEL_CL" maintainableParentVersion="1.0" agencyID="CL01" package="conceptscheme" class="Concept" />
+              </structure:ConceptIdentity>
+              <structure:LocalRepresentation>
+                <structure:TextFormat textType="Float" />
+              </structure:LocalRepresentation>
+            </structure:PrimaryMeasure>
+          </structure:MeasureList>
+        </structure:DataStructureComponents>
+      </structure:DataStructure>
+    </structure:DataStructures>
+  </message:Structures>
+</message:Structure>
